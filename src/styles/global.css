@@ -1,0 +1,25 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: var(--PRIMARY-BACKGROUND-CLR);
+  color: var(--PRIMARY-TEXT-CLR);
+  font-family: sans-serif;
+}
+
+a,
+button,
+input,
+li {
+  all: unset;
+}
+
+a,
+button {
+  cursor: pointer;
+}
